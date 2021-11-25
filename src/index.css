@@ -335,9 +335,9 @@ h3 {
   min-height: 100vh;
   padding: 0px;
 }
-.bNXWUU {
+/* .bNXWUU {
   max-width: 900px;
-}
+} */
 .kNIdQM ul.skills-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -567,4 +567,9 @@ table {
   color: #64ffda;
   /* transition-delay: 0.2s; */
   transition-duration: 300ms;
+}
+@media (max-width: 768px) {
+  .about-grid {
+    display: contents;
+  }
 }
